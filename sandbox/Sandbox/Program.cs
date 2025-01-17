@@ -4,7 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Sandbox World!!!");
-        Console.WriteLine("This is in C#");
+        Random randomGenerator = new Random();
+        int number = randomGenerator.Next(1, 11);
+        Console.WriteLine(number);
     }
 }
