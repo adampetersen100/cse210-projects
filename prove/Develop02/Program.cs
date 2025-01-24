@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop02 World!");
+        List<string> prompt = new List<string>();
+        Console.WriteLine(prompt);
     }
 }
