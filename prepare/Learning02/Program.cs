@@ -7,21 +7,23 @@ class Program
     {
         Job job1 = new Job();
         job1._jobTitle = "Software Engineer";
+        job1._company = "Microsoft";
+        job1._startYear = 2009;
+        job1._endYear = 2020;
 
-        Job company1 = new Job();
-        company1._company = "Microsoft";
+        Job job2 = new Job();
+        job2._jobTitle = "QA Tester";
+        job2._company = "Google";
+        job2._startYear = 2021;
+        job2._endYear = 2024;
 
-        Job company2 = new Job();
-        company2._company = "Apple";
+        Resume resume1 = new Resume();
 
-        Job start1 = new Job();
-        start1._startYear = 1999;
+        resume1._jobs.Add(job1);
+        resume1._jobs.Add(job2);
 
-        Job end1 = new Job();
-        end1._endYear = 2023;
+        resume1._name = "Adam Petersen";
 
-        Console.WriteLine(job1._jobTitle);
-        Console.WriteLine(company1._company);
-        Console.WriteLine(company2._company);
+        resume1.DisplayResumeInfo();
     }
 }
