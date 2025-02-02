@@ -35,7 +35,7 @@ class Program
                     journal.Save(saveFile);
                     break;
                 case "4":
-                Console.Write("Enter filename to load: ");
+                    Console.Write("Enter filename to load: ");
                     string loadFile = Console.ReadLine();
                     journal.Load(loadFile);
                     break;
