@@ -1,0 +1,1 @@
+2/1/2025 11:03:32 PM|If you had unlimited time and resources, what creative project would you start?|I'd make something with my arduino kit, like a humidity sensor, and maybe I'd use it to automate a humidifier when it falls below a certain humidity in the room.
